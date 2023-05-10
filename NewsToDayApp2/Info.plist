@@ -5,6 +5,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Adamina-Regular.ttf</string>
+		<string>Inter-Variable.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

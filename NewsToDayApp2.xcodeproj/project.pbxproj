@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		0020F6A42A0BBC69000C78C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020F6A32A0BBC69000C78C7 /* AppDelegate.swift */; };
 		0020F6A62A0BBC69000C78C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020F6A52A0BBC69000C78C7 /* SceneDelegate.swift */; };
-		0020F6A82A0BBC69000C78C7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020F6A72A0BBC69000C78C7 /* SplashScreen.swift */; };
+		0020F6A82A0BBC69000C78C7 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020F6A72A0BBC69000C78C7 /* SplashScreenVC.swift */; };
 		0020F6AD2A0BBC69000C78C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0020F6AC2A0BBC69000C78C7 /* Assets.xcassets */; };
 		0020F6B02A0BBC69000C78C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0020F6AE2A0BBC69000C78C7 /* LaunchScreen.storyboard */; };
 		0020F6B92A0BCD4A000C78C7 /* Adamina-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0020F6B82A0BCD4A000C78C7 /* Adamina-Regular.ttf */; };
+		0020F6BB2A0BD8DA000C78C7 /* NextScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020F6BA2A0BD8DA000C78C7 /* NextScreenVC.swift */; };
+		0020F6BF2A0BDC60000C78C7 /* Inter-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0020F6BE2A0BDC60000C78C7 /* Inter-Variable.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0020F6A02A0BBC69000C78C7 /* NewsToDayApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsToDayApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0020F6A32A0BBC69000C78C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0020F6A52A0BBC69000C78C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0020F6A72A0BBC69000C78C7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		0020F6A72A0BBC69000C78C7 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
 		0020F6AC2A0BBC69000C78C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0020F6AF2A0BBC69000C78C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0020F6B12A0BBC69000C78C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0020F6B82A0BCD4A000C78C7 /* Adamina-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Adamina-Regular.ttf"; sourceTree = "<group>"; };
+		0020F6BA2A0BD8DA000C78C7 /* NextScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScreenVC.swift; sourceTree = "<group>"; };
+		0020F6BE2A0BDC60000C78C7 /* Inter-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Variable.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,8 @@
 				0020F6B72A0BCD33000C78C7 /* Fonts */,
 				0020F6A32A0BBC69000C78C7 /* AppDelegate.swift */,
 				0020F6A52A0BBC69000C78C7 /* SceneDelegate.swift */,
-				0020F6A72A0BBC69000C78C7 /* SplashScreen.swift */,
+				0020F6A72A0BBC69000C78C7 /* SplashScreenVC.swift */,
+				0020F6BA2A0BD8DA000C78C7 /* NextScreenVC.swift */,
 				0020F6AC2A0BBC69000C78C7 /* Assets.xcassets */,
 				0020F6AE2A0BBC69000C78C7 /* LaunchScreen.storyboard */,
 				0020F6B12A0BBC69000C78C7 /* Info.plist */,
@@ -71,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				0020F6B82A0BCD4A000C78C7 /* Adamina-Regular.ttf */,
+				0020F6BE2A0BDC60000C78C7 /* Inter-Variable.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0020F6BF2A0BDC60000C78C7 /* Inter-Variable.ttf in Resources */,
 				0020F6B02A0BBC69000C78C7 /* LaunchScreen.storyboard in Resources */,
 				0020F6AD2A0BBC69000C78C7 /* Assets.xcassets in Resources */,
 				0020F6B92A0BCD4A000C78C7 /* Adamina-Regular.ttf in Resources */,
@@ -146,7 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0020F6A82A0BBC69000C78C7 /* SplashScreen.swift in Sources */,
+				0020F6BB2A0BD8DA000C78C7 /* NextScreenVC.swift in Sources */,
+				0020F6A82A0BBC69000C78C7 /* SplashScreenVC.swift in Sources */,
 				0020F6A42A0BBC69000C78C7 /* AppDelegate.swift in Sources */,
 				0020F6A62A0BBC69000C78C7 /* SceneDelegate.swift in Sources */,
 			);
